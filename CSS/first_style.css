@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.booking-btn{
+    display: inline-block;
+    font-size: 16px;
+    padding: 20px 30px;
+    line-height: 1; /*устанавливает величину пространства между строками */
+    color: white;
+    background-color: #cc9933;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* HEADER */
+
+.header{
+    height: 185px;
+}
+
+.header-container{
+    /* display: flex; */
+    /* align-items: center; */
+    height: 100%;
+}
+
+.header-top{
+    display: flex;
+}
+
+.logo-img{
+    /* height: 55px; */
+    width: 260px;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.header-tel-link{
+    padding-left: 25px;
+    padding-top: 45px;
+}
+
+.header-personal-link{
+    padding-top: 50px;
+    margin-left: auto;
+    padding-right: 10px;
+}
+
+.header-botton{
+    padding-top: 30px;
+    height: 100px;
+}
+
+.nav{
+    display: flex;
+    padding-right: 20px;
+}
+
+.nav-list{
+    display: flex;
+    padding-top: 25px;
+}
+
+.nav-item:first-child{
+    padding-left: 20px;
+}
+
+.nav-item:not(:first-child){
+    padding-left: 50px;
+}
+
+.header-search{
+    margin-left: auto;
+    width: 350px;
+    margin-top: 12px;
+}
+
+.header-search-botton{
+    margin-top: 12px;
+}
+
+/* BOOKING */
+
+.section-booking{
+    height: 670px;
+    padding-top: 60px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+.booking-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.booking-title{
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 40px
+}
+
+.container-left{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 55px;
+}
+
+.booking-input-item{
+    margin-top: 24px;
+    width: 518px;
+    height: 70px;
+    border-radius: 12px;
+}
+
+.booking-input-item:last-child{
+    margin-bottom: 24px;
+}
+
+.booking-text{
+    display: inline-block;
+}
+
+.booking-btn{
+    margin-right: 30px;
+}
+
+.container-right{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    width: 595px;
+}
+
+/* ABOUT-US */
+
+.container-about-us{
+    padding-top: 60px;
+    padding-left: 45px;
+}
+
+.section-title-about-us{
+    margin-bottom: 20px;
+}
+
+/* services */
+
+.services-container{
+    padding-top: 60px;
+}
+
+.section-title-services{
+    margin-left: 45px;
+}
+
+.services-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-list-item{
+    width: 570px;
+    height: 320px;
+}
+
+.services-list-item:not(:nth-child(2n)){
+    margin-right: 20px;
+}
+
+/* advantages */
+
+.advantages-container{
+    padding-top: 60px;
+}
+
+.section-title-advantages{
+    margin-left: 40px;
+}
+
+.advantages-list{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages-list-item{
+    height: 275px;
+    width: 275px;
+}
+
+.advantages-list-item:not(:nth-child(4n)){
+    margin-right: 20px;
+}
+
+/* placement */
+
+.placement-container{
+    padding-top: 60px;
+}
+
+.section-title-placement{
+    margin-left: 40px;
+}
+
+.placement-list{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.placement-list-item{
+    flex: 1 1 25%;
+    height: 440px;
+    width: 375px;
+} 
+
+.placement-list-item:not(:nth-child(3n)){
+    margin-right: 25px;
+}
